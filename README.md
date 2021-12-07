@@ -11,7 +11,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 ![Random_Oversampling.png](Practice/Images/Random_Oversampling.png)
 
-![SMOTE_Oversampling.png](Practice/Images/SMOTE_Oversampling.png)
+![Smote_Oversampling.png](Practice/Images/Smote_Oversampling.png)
 
 ![Undersampling.png](Practice/Images/Undersampling.png)
 
