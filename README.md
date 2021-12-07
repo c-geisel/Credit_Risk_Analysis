@@ -1,5 +1,6 @@
 # Credit Risk Analysis
-[Pyber Analysis Code](https://github.com/c-geisel/PyBer_Analysis/blob/main/PyBer_Challenge.ipynb)
+[Resampling Machine Learning Models](https://github.com/c-geisel/Credit_Risk_Analysis/blob/main/credit_risk_resampling.ipynb)
+[Ensemble Machine Learning Models](https://github.com/c-geisel/Credit_Risk_Analysis/blob/main/credit_risk_ensemble.ipynb)
 
 ## Overview of the analysis
 Explain the purpose of this analysis.
