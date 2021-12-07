@@ -8,7 +8,11 @@ Analyzing credit risk frequently poses a challenge being that it is an unbalance
 
 ## Results 
 1. The first machine learning model used is a random oversampler in order to balance our dataset. 
-    - This model had an accuracy score of 64.7%
+    - Accuracy score of 64.7%
+    - Precision low-risk: 0.01
+    - Precision high-risk: 1.00
+    - Recal low-risk: 
+    - Recall High Risk: 
     - The precision is very low for high-risk loans at 0.01, and very high for low-risk at 1.00
     - The recall scores for high and low risk loans are relatively high at over 0.6 for both. 
 ![Random_Oversampling.png](Practice/Images/Random_Oversampling.png)
