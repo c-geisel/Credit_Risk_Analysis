@@ -63,3 +63,5 @@ Analyzing credit risk frequently poses a challenge being that it is an unbalance
 
 ## Summary 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+
+Precision tells us how reliable a positive classification is. 
