@@ -9,29 +9,55 @@ Analyzing credit risk frequently poses a challenge being that it is an unbalance
 ## Results 
 1. The first machine learning model used is a random oversampler in order to balance our dataset. 
     - Accuracy score of 64.7%
-    - Precision low-risk: 0.01
-    - Precision high-risk: 1.00
-    - Recal low-risk: 
-    - Recall High Risk: 
-    - The precision is very low for high-risk loans at 0.01, and very high for low-risk at 1.00
-    - The recall scores for high and low risk loans are relatively high at over 0.6 for both. 
+    - Precision high-risk: 0.01
+    - Precision low-risk: 1.00
+    - Recall high-risk: 0.63
+    - Recall low-risk: 0.66
+
 ![Random_Oversampling.png](Practice/Images/Random_Oversampling.png)
 
 2. Next, another oversampling model is created using SMOTE. 
-    - This model had an accuracy score of 64.6% 
-    - The precision is once again very low for high-risk loans at 0.01, and very high for low-risk at 1.00
-    - As in the earlier oversampling model, the recall numbers for both low and high-risk loans are good at over 0.6.
+    - Accuracy score of 64.6%
+    - Precision high-risk: 0.01
+    - Precision low-risk: 1.00
+    - Recall high-risk: 0.64
+    - Recall low-risk: 0.65
+
 ![Smote_Oversampling.png](Practice/Images/Smote_Oversampling.png)
 
 3. An undesampling model is used.
-    - This model had an accuracy score of 52.9% 
-    - The precision score for low risk is very high at 1.00, and the precision for high-risk is very low at 0.01.
-    - The recall for low risk is 0.45 and the recall rate for high risk is better at 0.61
+    - Accuracy score of 52.9% 
+    - Precision high-risk: 0.01
+    - Precision low-risk: 1.00
+    - Recall high-risk: 0.61
+    - Recall low-risk: 0.45
+
 ![Undersampling.png](Practice/Images/Undersampling.png)
+
+4. A combination SMOTEENN model is used that combines both over and undersampling techniques.
+    - Accuracy score of 64.3% 
+    - Precision high-risk: 0.01
+    - Precision low-risk: 1.00
+    - Recall high-risk: 0.72
+    - Recall low-risk: 0.56
 
 ![Combinations_Over_Under_Sampling.png](Practice/Images/Combinations_Over_Under_Sampling.png)
 
+5. Ensemble techniques are also used to model the dataset. Here, a Random Forest model is used. 
+    - Accuracy score of 89.4% 
+    - Precision high-risk: 0.03
+    - Precision low-risk: 1.00
+    - Recall high-risk: 0.62
+    - Recall low-risk: 0.90
+
 ![Random_Forest.png](Practice/Images/Random_Forest.png)
+
+6. Finally, an Easy Ensemble Model is used.
+    - Accuracy score of 94.2% 
+    - Precision high-risk: 0.07
+    - Precision low-risk: 1.00
+    - Recall high-risk: 0.91
+    - Recall low-risk: 0.94
 
 ![Easy_Ensemble.png](Practice/Images/Easy_Ensemble.png)
 
