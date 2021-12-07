@@ -4,7 +4,7 @@
 [Ensemble Machine Learning Models](https://github.com/c-geisel/Credit_Risk_Analysis/blob/main/credit_risk_ensemble.ipynb)
 
 ## Overview of the analysis
-Explain the purpose of this analysis.
+Analyzing credit risk frequently poses a challenge being that it is an unbalanced classification problem. It poses a challenge as the number of good loans outweigh the number of risky loans. Different techniques are used to train and evaluate models with unbalanced classes. To begin, machine learning models oversample data randomly and through SMOTE, data is undersampled, a combination approach of over and undersampling is used, finally, ensemble models are used. This is done through the use of imbalanced-learn and scikit-learn libraries. The models are then evaluated based on the performance and reccommendations are given to decide whether or not they should be used to predict credit risk. 
 
 ## Results 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
